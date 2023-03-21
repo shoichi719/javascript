@@ -11,3 +11,11 @@ const train_fare = (nenrei) => {
 const test = () => {
     alert("hello javascript");
 }
+
+const test1 = (message) => {
+    alert(message);
+}
+
+const test2 = () => {
+    test1("Hello javascript");
+}
