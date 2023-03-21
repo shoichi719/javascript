@@ -27,3 +27,8 @@ const add = (a, b) => {
 const sub = (c, d) => {
     return c-d;
 }
+
+const test3 = () => {
+    let p = document.getElementById("test");
+    p.innerText = "Hello javascript";
+}
