@@ -17,5 +17,13 @@ const test1 = (message) => {
 }
 
 const test2 = () => {
-    test1("Hello javascript");
+    alert(sub(3,4)); 
+}
+
+const add = (a, b) => {
+    return a+b;
+}
+
+const sub = (c, d) => {
+    return c-d;
 }
