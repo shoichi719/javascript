@@ -33,3 +33,14 @@ const test3 = () => {
     p.innerText = "Hello javascript";
     p.style = "color:red; background-color:black;";
 }
+
+const test4 = () =>{
+    let a = document.getElementById("a");
+    let b = document.getElementById("b");
+    alert(Number(a.value)/Number(b.value));
+
+}
+
+function test5(){
+    
+}
