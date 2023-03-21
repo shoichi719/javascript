@@ -31,4 +31,5 @@ const sub = (c, d) => {
 const test3 = () => {
     let p = document.getElementById("test");
     p.innerText = "Hello javascript";
+    p.style = "color:red; background-color:black;";
 }
